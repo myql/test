@@ -27,7 +27,7 @@ a {
 .star {
 	 width: 100%;
 	 height: 800px;
-	 background: rgba(0,0,0,0.35) url(images/stars.png) no-repeat -244px 0;	
+	 background: rgba(0,0,0,0.35) url(https://img.alicdn.com/imgextra/i4/1036020250/TB21enUal0kpuFjy1zdXXXuUVXa_!!1036020250.png) no-repeat -244px 0;	
 }
 #header .header-list {
 	padding-top: 33px;
@@ -84,7 +84,7 @@ a {
 	transform: translateY(-50%);
 	width: 112px;
 	height: 63px;
-	background: url(images/1.png) no-repeat;
+	background: url(https://img.alicdn.com/imgextra/i2/1036020250/TB2YSzTagxlpuFjSszgXXcJdpXa_!!1036020250.png) no-repeat;
 }
 #header .title {
 	position: absolute;
@@ -93,7 +93,7 @@ a {
 	transform: translateX(-50%);
 	width: 704px;
 	height: 86px;
-	background: url(images/title.png) no-repeat;
+	background: url(https://img.alicdn.com/imgextra/i2/1036020250/TB2b8nVabFkpuFjy1XcXXclapXa_!!1036020250.png) no-repeat;
 }
 #header .list-content:hover .lesson-list {
 	display: block;
@@ -105,7 +105,7 @@ a {
 	transform: translateX(-50%);
 	width: 100%;
 	height: 100%;
-	background: url(images/shot.png) no-repeat 0px 0px;
+	background: url(https://img.alicdn.com/imgextra/i2/1036020250/TB2Aa6Wal0kpuFjSsppXXcGTXXa_!!1036020250.png) no-repeat 0px 0px;
 	background-size: 100% 100%;
 }
 #header .globe {
@@ -301,7 +301,7 @@ a {
 /* 课程 */
 .course-list {
 	padding-top: 46px;
-	background: url(images/stars2.png) no-repeat;
+	background: url(https://img.alicdn.com/imgextra/i2/1036020250/TB2fsHWal8kpuFjSspeXXc7IpXa_!!1036020250.png) no-repeat;
 	background-size: cover;padding-bottom: 51px;
 }
 .course-introduction {
