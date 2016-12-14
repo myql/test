@@ -151,6 +151,20 @@ a {
 #header .slogan2 {
 		text-align: right;
 }
+#header .apply {
+	position: absolute;
+	top: 550px;
+	left: 50%;
+	transform: translateX(-50%);
+	padding :10px 25px;
+	border: 2px solid #5a7fcd;
+	border-radius: 8px;
+	box-shadow: 0 0 3px #5a7fcd;
+}
+#header .apply a {
+	color: white;
+	font: 24px "Microsoft YaHei";
+}
 /*内容*/
 #container {
 	width: 100%;
