@@ -379,9 +379,11 @@ a {
 .course-details1 {
 	float: left;
 	margin-left: 16px;
+	max-width: 45%;
 }
 .course-details2 {
 	float: right;
+	max-width: 45%;
 }
 .course-details li {
 	color: white;
