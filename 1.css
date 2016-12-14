@@ -28,9 +28,9 @@ a {
 	 width: 100%;
 	 height: 800px;
 	 background: url(https://img.alicdn.com/imgextra/i4/1036020250/TB21enUal0kpuFjy1zdXXXuUVXa_!!1036020250.png) no-repeat -350px 0,
-	 url(https://img.alicdn.com/imgextra/i1/1036020250/TB24_PSal0lpuFjSszdXXcdxFXa_!!1036020250.png) no-repeat center 310px,
-	 url(https://img.alicdn.com/imgextra/i2/1036020250/TB2YSzTagxlpuFjSszgXXcJdpXa_!!1036020250.png) no-repeat center 184px,
-	 url(https://img.alicdn.com/imgextra/i2/1036020250/TB2b8nVabFkpuFjy1XcXXclapXa_!!1036020250.png) no-repeat center 214px;
+		url(https://img.alicdn.com/imgextra/i1/1036020250/TB24_PSal0lpuFjSszdXXcdxFXa_!!1036020250.png) no-repeat center 270px,
+	 url(https://img.alicdn.com/imgextra/i2/1036020250/TB2YSzTagxlpuFjSszgXXcJdpXa_!!1036020250.png) no-repeat center 151px,
+	 url(https://img.alicdn.com/imgextra/i2/1036020250/TB2b8nVabFkpuFjy1XcXXclapXa_!!1036020250.png) no-repeat center 181px;
 	 background-blend-mode: lighten;
 }
 #header .header-list {
@@ -96,7 +96,7 @@ a {
 }
 #header .slogan {
 	position: absolute;
-	top: 420px;
+	top: 390px;
 	left: 50%;
 	transform: translateX(-45%);
 	width: 460px;
@@ -119,7 +119,7 @@ a {
 }
 #header .apply {
 	position: absolute;
-	top: 575px;
+	top: 545px;
 	left: 50%;
 	transform: translateX(-50%);
 	padding :10px 25px;
