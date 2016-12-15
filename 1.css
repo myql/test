@@ -3,6 +3,7 @@
 	padding: 0;
 }
 html,body {
+	width: 100%;
 	height: 100%;
 }
 li {
@@ -27,7 +28,7 @@ a {
 .star {
 	 width: 100%;
 	 height: 800px;
-	 background: url(https://img.alicdn.com/imgextra/i4/1036020250/TB21enUal0kpuFjy1zdXXXuUVXa_!!1036020250.png) no-repeat -350px 0,
+	 background: url(https://img.alicdn.com/imgextra/i4/1036020250/TB21enUal0kpuFjy1zdXXXuUVXa_!!1036020250.png) no-repeat -100px 0,
 		url(https://img.alicdn.com/imgextra/i1/1036020250/TB24_PSal0lpuFjSszdXXcdxFXa_!!1036020250.png) no-repeat center 270px,
 	 url(https://img.alicdn.com/imgextra/i2/1036020250/TB2YSzTagxlpuFjSszgXXcJdpXa_!!1036020250.png) no-repeat center 151px,
 	 url(https://img.alicdn.com/imgextra/i2/1036020250/TB2b8nVabFkpuFjy1XcXXclapXa_!!1036020250.png) no-repeat center 181px;
@@ -130,6 +131,56 @@ a {
 #header .apply a {
 	color: white;
 	font: 24px "Microsoft YaHei";
+}
+#header .globe {
+	position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+  background: white;
+  animation-duration: 1s;
+  animation-name: globe;
+  animation-iteration-count: infinite;
+}
+#header .star1 {
+	top: 113px;
+	left: 306px;
+}
+#header .star2 {
+	top: 256px;
+	left: 301px;
+}
+#header .star3 {
+	width: 7px;
+	height: 7px;
+	border-radius: 100%;
+	top: 568px;
+	left: 312px;
+}
+#header .star4 {
+	width: 7px;
+	height: 7px;
+	border-radius: 100%;
+	top: 664px;
+	left: 883px;
+}
+#header .star5 {
+	width: 7px;
+	height: 7px;
+	border-radius: 100%;
+	top: 320px;
+	left: 500px;
+}
+@keyframes globe {
+  0% {
+    box-shadow: 0 0 10px 0px rgba(255, 255, 255, 0.05);
+}
+50% {
+    box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.4);
+}
+100% {
+    box-shadow: 0 0 10px 0px rgba(255, 255, 255, 0.05);
+}
 }
 /*内容*/
 #container {
