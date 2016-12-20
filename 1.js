@@ -9,7 +9,7 @@ var windowWidth=$(window).width();
 var liWidth=windowWidth*0.8;
 $teacherLi.width(liWidth);
 // ÂÖ²¥
-function foo2(){
+
 var lisWidth=$teacherLi.width();
 var $lis=$teacherList.children(), liCount=$lis.length;
 $teacherList.append($teacherLi.first().clone());
@@ -48,7 +48,7 @@ function playNext(idx){
       curIdx=(curIdx+idx)%liCount;
       if(curIdx===0){
         $teacherList.css({
-          left: -lisWidth
+          left: -lisWidth,
         });
       }
       isAnimate=false;
@@ -76,13 +76,13 @@ function playPre(idx){
 }
 function setButtle(){      $dot.children().removeClass('active').eq(curIdx).addClass('active');
 }
-function autoPlay(){
-        clock=setInterval(function(){
-            playNext();
-        },3000);
-    }
+// function autoPlay(){
+        // clock=setInterval(function(){
+            // playNext();
+        // },3000);
+    // }
 // autoPlay();
-}
+
 // ÏîÄ¿½éÉÜÂÖ²¥
 function foo(){
 	var $ct=$(".project-list");
@@ -107,4 +107,3 @@ $list.on('click',function(){
 });
 }
 foo();
-foo2();
