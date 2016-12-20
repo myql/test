@@ -223,10 +223,9 @@ a {
 }
 /* 轮播介绍 */
 #container .teacher-list {
-    position: absolute;
-    top: 0;
-    left: 0; 
-		padding-top: 28px;
+  position: absolute;
+  top: 0; 
+	padding-top: 28px;
 }
 #container .teacher-list li {
 	float: left;
