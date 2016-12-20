@@ -222,10 +222,14 @@ a {
 	overflow: hidden;
 }
 /* 轮播介绍 */
-#cointainer .teacher-list li {
-	position: absolute;
-	top: 0;
+#container .teacher-list {
+    position: absolute;
+    top: 0;
+    left: 0; 
+}
+#container .teacher-list li {
 	float: left;
+  height: 538px;
 }
 #container h4 {
 	color: white;
@@ -261,8 +265,11 @@ a {
 	box-shadow: 0px 0px 8px #7ccef3;
 }
 #container .dot {
+	position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
 	width: 76px;
-	margin: 0 auto;	
 }
 #container .dot li {
 	float: left;
