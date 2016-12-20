@@ -1,0 +1,392 @@
+.head-list a {
+	color: #6C6C6C;
+}
+.layout {
+	width: 1200px;
+	margin: 0 auto;
+}
+#header {
+		font: 12px/35px tahoma;
+		background: #F5F5F5;
+}
+.head-list a:hover {
+	color: #FF4400;
+}
+.iconfont {
+	font-size: 12px;
+	line-height: 35px;
+}
+.clearfix:after {
+	content:'';
+	display:block;
+	clear: both;
+}
+#login a{
+	color: #FF4400;
+}
+.header-left {
+	float: left;
+}
+.header-right {
+	float:right;
+}
+.header-left li {
+		float: left;
+		width: 60px;
+}
+.header-right>li {
+		position: relative;
+		float: left;
+		text-align: center;
+}
+.header-right .list {
+	width: 80px;
+}
+.header-right .pull-down a:hover {
+	color: #6C6C6C;
+}
+.header-right .pull-down{
+	position: absolute;
+	top: 35px;
+	left: 10px;
+	display: none; 
+	width: 80px;
+	text-align: left;
+}
+.header-right li:hover .pull-down {
+	display: block;
+}
+.shopping .pull-down {
+	position: absolute;
+	top: 35px;
+	left: 45px;
+	height: 50px;
+	line-height: 50px;
+	width: 300px;
+}
+#shopping-details a{
+	display: inline-block;
+	width :105px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	background: #ff4400;
+	color: white;
+	border-radius: 2px;
+}
+#shopping-details a:hover {
+	color: white;
+}
+#divide {
+	width: 10px;
+	color: #DEDEE3
+}
+#web-nav {
+	text-align: right;
+}
+.bars,.down-arrow {
+	font-size: 12px;
+	transform: scale(0.5);
+}
+.down-arrow {
+	color: #9c9c9c;
+}
+.shopping-cart,#shopping-number ,.bars,.collection:hover {
+	color: #FF4400;
+}
+.collection{
+	font-weight: bold;
+	opacity: 0.7;
+}
+.collection-list {
+	font-weight: normal;
+}
+#shopping-number {
+	font-weight: bold;
+}
+//网站导航
+#web-nav {
+	position: relative;
+}
+#web-nav:hover .web-content {
+	display: block;
+	
+}
+#web-nav .web-content{
+	display: none; 
+	position: absolute;
+	top: 35px;
+	right:0px;
+	float: left;
+	margin-left: 20px;
+	width: 1200px;
+	background: white;
+}
+#web-nav .navs {
+	 float: left;
+	 width: 300px;
+ }
+ 
+#web-nav .navs ul {
+	float: left;
+}
+#web-nav .navs  h3 {
+	text-align: left;
+}
+#web-nav .navs ul li{
+	width: 75px;
+	text-align: left;
+}
+#web-nav .highlight h3 {
+	line-height: 35px;
+}
+#web-nav .highlight ul li{
+	font-size: 12px;
+	line-height: 35px;
+	width: 150px;
+}
+/*搜索框*/
+.search {
+	padding-top: 40px;
+	width:666px;
+	margin: 0 auto;
+}
+.search li{
+	float: left;
+}
+.search .tab li {
+	width: 50px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	
+}
+.search .tab a{
+	color: #ff4400;
+}
+.search .active {
+	background: #ff5400;	
+}
+.search .active a {
+	color: white;
+	font-weight: bold;
+}
+/* 天猫的设置 */
+.search .active1 {
+	background: #c60000;	
+}
+.search .active1 a {
+	color: white;
+	font-weight: bold;
+}
+.search .search-box {
+	display: block;
+	width: 500px;
+	height: 40px;
+	box-sizing: border-box;
+	border: 2px solid #ff5400;
+	padding-left: 10px;
+	padding-right: 35px
+}
+.search input:focus {
+	outline: none;
+}
+.search .soso {
+	display: block;
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	background: #ff4200;
+	color: white;
+}
+.search .all-soso {
+	position: relative;
+}
+.search .soso:hover {
+	background: #f52b00;
+}
+.search .advanced-soso {
+	display: block;
+	width: 35px;
+	color: #666666;
+	text-align: center;
+}
+.search .camera:hover {
+	color: #fd4705;
+}
+/*搜索框下面的*/
+.hint {
+	width: 666px;
+	margin: 0 auto;
+}
+.hint li {
+	float: left;
+	margin-right: 10px;
+	font-size: 12px;
+	line-height: 35px;
+}
+
+.hint .iconfont {
+	font-size: 12px;
+	line-height: 35px;
+}
+.hint .goods2 a {
+	color: #666;
+}
+.hint .goods1 a{
+	color: #ff4400;
+}
+.hint li a:hover {
+	color: #ff4400;
+}
+/* 主要商品分类 */
+.goods-list {
+	width: 814px;
+	margin: 10px auto;
+}
+.goods-list li {
+	float: left;
+}
+.goods-list .list-main {
+	margin-left: 8px;
+	text-align: center;
+	font: 16px/20px tahoma;
+}
+.goods-list .list-main a {
+	display: inline-block;
+	padding: 6px 9px;
+	color: #ff4400;
+	font-weight: bold;
+}
+.goods-list .list-main a:hover {
+	color: white;
+	background: #ff4400;
+	border-radius: 15px;
+}
+.goods-list .list-more {
+	margin-left: 20px;
+}
+.goods-list .list-more{
+	margin-left: 10px;
+}
+.goods-list .list-more a {
+	display: inline-block;
+	padding: 6px 5px;
+	font: 14px/20px tahoma;
+	font-weight: bold;
+	color: #666;
+}
+.goods-list .list-more a:hover {
+	color: white;
+	background: #ff4400;
+	border-radius: 15px;
+}
+/*产品展示*/
+.goods-details>div {
+	float: left;
+}
+.goods-details .details-nav {
+	width: 190px;
+	height: 200px;
+	border: 1px solid red;
+}
+/* 大图轮播 */
+.goods-display {
+	position: relative;
+	width: 520px;
+	height: 280px;
+	overflow: hidden;
+	margin-left: 10px;
+}
+
+.goods-display .large-page {
+	position: absolute;
+}
+.goods-display .large-page li{
+	float: left;
+}
+.goods-display .buttons {
+	display: none;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 25px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 16px;
+	text-align: center;
+	color: white;
+	background: rgba(177,176,173,0.8);
+	cursor: pointer;
+}
+.goods-display .buttons:hover {
+	background: rgba(126,126,124,0.8);
+}
+.goods-display:hover .buttons {
+	display: block;
+}
+.goods-display .before-button {
+	left: 0;
+}
+.goods-display .after-button {
+	right: 0;
+}
+/* 小圆点 */
+.goods-display .dot {
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 70px;
+	padding: 2px 2px 2px 5px;
+	border-radius: 7px;
+	margin-right: -4px;
+	background: rgba(127,128,111,1);
+	cursor: pointer;
+}
+.goods-display .dot li{
+	float: left;
+	width: 10px;
+	height: 10px;
+	margin-right: 4px;
+	border-radius: 10px;
+	background: rgb(183,183,183);
+}
+.goods-display .dot .mark1 {
+	background: #ff4400;
+}
+.tmall-stroll {
+	font: 14px tahoma; 
+	color: #3c3c3c;
+	font-weight: bold;
+	margin-left: 10px;
+	border-bottom: 2px solid #000;
+}
+.tmall-stroll img {
+	position: relative;
+	top: 3px;
+	right: 4px;
+}
+.tmall-hot {
+	float: left; 
+	color: #666666;
+}
+.hots {
+	float: right;
+	width: 408px;
+	font: 12px  tahoma;
+	padding: 4px 0 1px 7px;
+	border-bottom: 2px solid #c12c26;
+}
+.hot-number {
+	float: right;
+}
+.hot-vary {
+	color: #c12c26;
+}
+.list-details li {
+	float: left;
+}
