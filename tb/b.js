@@ -1,6 +1,6 @@
 //轮播
 
-// setTimeout(foo(),300);
+setInterval(function(){playNext()},3000);
 
 var $beforeButton=$(".before-button"),
 		$afterButton=$(".after-button"),
@@ -35,7 +35,6 @@ $afterButton.on('click',function(){
 var isAnimate=false;
 function playNext(idx){
 	idx=idx||1;
-	console.log(1);
 	if(!isAnimate){
 		isAnimate=true;
 		$largePage.animate({
