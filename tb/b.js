@@ -63,6 +63,8 @@ function playPre(idx){
 }
 function setBubble(){
 	$dot.children().removeClass('mark1').eq(curIdx).addClass('mark1');
+	var $hotVary=$('.'+value+' .hot-vary');
+	$hotVary.text(parseInt(curIdx+1));
 }	
 function autoPlay(){
 	setInterval(function(){
@@ -72,5 +74,9 @@ function autoPlay(){
 autoPlay();
 }
 
-foo('hot-list',5000);
+foo('hot-details',5000);
 foo('goods-display',3000);
+	
+	
+
+

@@ -2,7 +2,7 @@
 	color: #6C6C6C;
 }
 .layout {
-	width: 1200px;
+	width: 90%;
 	margin: 0 auto;
 }
 #header {
@@ -359,7 +359,7 @@
 	background: #ff4400;
 }
 .tmall-stroll {
-	font: 14px tahoma; 
+	font: 14px/36px tahoma; 
 	color: #3c3c3c;
 	font-weight: bold;
 	margin-left: 10px;
@@ -375,10 +375,13 @@
 	color: #666666;
 }
 .hots {
+	position : absolute;
+	top: 0px;
+	left: 116px;
 	float: right;
 	width: 408px;
 	font: 12px  tahoma;
-	padding: 4px 0 1px 7px;
+	padding: 10px 0 1px 7px;
 	border-bottom: 2px solid #c12c26;
 }
 .hot-number {
@@ -386,6 +389,9 @@
 }
 .hot-vary {
 	color: #c12c26;
+}
+.hot-details {
+	position: relative;
 }
 .hot-list {
 	position: relative;
@@ -437,4 +443,44 @@
 }
 .hot-list:hover .buttons {
 	display: block;
+}
+.details-more ul {
+	margin-left: 10px;
+
+}
+.details-more ul li:nth-child(2) {
+	margin-bottom: 4px;
+	margin-top: 4px;
+}
+/* 右侧登陆界面服务*/
+.service-title p {
+	font: 12px/18px tahoma;
+}
+.service-title {
+	text-align: center;
+	margin-left: 26px;
+}
+.title-image {
+	border-radius: 100%;
+}
+.more-icon {
+		font: 12px/20px tahoma;
+	
+}
+.more-icon a {
+	color: #ff4400;
+
+}
+.icon-gold {
+	display: inline-block;
+	background: url(https://img.alicdn.com/tfs/TB1rFMcOFXXXXagapXXXXXXXXXX-220-1136.png) no-repeat 0px -880px;
+	padding-left: 20px;
+}
+.service-title .clearfix li {
+	float: left;
+	width: 84px;
+	height: 26px;
+	background: #ff4400;
+	margin-right: 8px;
+	text-align: center;
 }
