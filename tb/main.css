@@ -308,7 +308,7 @@
 .goods-display .large-page li{
 	float: left;
 }
-.goods-display .buttons {
+ .buttons {
 	display: none;
 	position: absolute;
 	top: 50%;
@@ -322,20 +322,20 @@
 	background: rgba(177,176,173,0.8);
 	cursor: pointer;
 }
-.goods-display .buttons:hover {
+ .buttons:hover {
 	background: rgba(126,126,124,0.8);
 }
 .goods-display:hover .buttons {
 	display: block;
 }
-.goods-display .before-button {
+ .before-button {
 	left: 0;
 }
-.goods-display .after-button {
+.after-button {
 	right: 0;
 }
 /* Ð¡Ô²µã */
-.goods-display .dot {
+ .dot {
 	position: absolute;
 	bottom: 10px;
 	left: 50%;
@@ -347,7 +347,7 @@
 	background: rgba(127,128,111,1);
 	cursor: pointer;
 }
-.goods-display .dot li{
+ .dot li{
 	float: left;
 	width: 10px;
 	height: 10px;
@@ -355,7 +355,7 @@
 	border-radius: 10px;
 	background: rgb(183,183,183);
 }
-.goods-display .dot .mark1 {
+ .dot .mark1 {
 	background: #ff4400;
 }
 .tmall-stroll {
@@ -387,6 +387,54 @@
 .hot-vary {
 	color: #c12c26;
 }
-.list-details li {
+.hot-list {
+	position: relative;
+	width: 520px;
+	height: 200px;
+	overflow: hidden;
+}
+.hot-list .large-page {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.hot-list .large-page>li {
 	float: left;
+	width: 520px;
+	overflow: hidden;
+}
+.hot-list .large-page  .list1 ul {
+	float: left;
+	width: 33%;
+}
+
+.hot-list .large-page  .list1 ul li img {
+	 width: 100%; 
+}
+.hot-list .large-page  .list2 li,.hot-list .large-page  .list3 li {
+	float: left;
+}
+.hot-list .large-page  .list4 ul {
+	float: left;
+	width: 25%;
+}
+.hot-list .large-page  .list4 ul img {
+	width: 100%;
+}
+.hot-list .large-page  .list5 li ,.hot-list .large-page  .list6 li{
+	float: left;
+	width: 50%;
+}
+.hot-list .large-page  .list5 li img ,.hot-list .large-page  .list6 li img{
+	width: 100%;
+}
+.hot-list .large-page  .list6 li img {
+	height: 200px;
+}
+.hot-list .dot  {
+	width: 90px;
+	background: none;
+}
+.hot-list:hover .buttons {
+	display: block;
 }

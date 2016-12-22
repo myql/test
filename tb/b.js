@@ -1,13 +1,12 @@
 //轮播
 
-setInterval(function(){playNext()},3000);
-
-var $beforeButton=$(".before-button"),
-		$afterButton=$(".after-button"),
-		$dot=$(".dot"),
-		$largePage=$(".large-page");
-var $image=$(".large-page img"),
-		imageWidth=$image.width(),
+// setInterval(function(){playNext()},3000);
+function foo(value,time) {
+	var $beforeButton=$('.'+value+" .before-button"),
+		$afterButton=$('.'+value+" .after-button"),
+		$dot=$('.'+value+" .dot"),
+		$largePage=$('.'+value+" .large-page");
+var imageWidth=520,
 		$large=$largePage.children(),
 		largeLength=$large.length;
 		$largePage.prepend($large.last().clone());
@@ -64,4 +63,14 @@ function playPre(idx){
 }
 function setBubble(){
 	$dot.children().removeClass('mark1').eq(curIdx).addClass('mark1');
+}	
+function autoPlay(){
+	setInterval(function(){
+		playNext();
+	},time)
 }
+autoPlay();
+}
+
+foo('hot-list',5000);
+foo('goods-display',3000);
