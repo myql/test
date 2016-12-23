@@ -2,7 +2,7 @@
 	color: #6C6C6C;
 }
 .layout {
-	width: 90%;
+	width: 1400px;
 	margin: 0 auto;
 }
 #header {
@@ -291,6 +291,7 @@
 .goods-details .details-nav {
 	width: 190px;
 	height: 200px;
+	margin-left: 78px;
 	border: 1px solid red;
 }
 /* ´óÍ¼ÂÖ²¥ */
@@ -476,6 +477,9 @@
 	background: url(https://img.alicdn.com/tfs/TB1rFMcOFXXXXagapXXXXXXXXXX-220-1136.png) no-repeat 0px -880px;
 	padding-left: 20px;
 }
+.service-title .clearfix {
+	margin-top: 7px;
+}
 .service-title .clearfix li {
 	float: left;
 	width: 84px;
@@ -483,4 +487,153 @@
 	background: #ff4400;
 	margin-right: 8px;
 	text-align: center;
+	cursor: pointer;
+}
+.service-title .clearfix li:hover {
+	background: #f22d00;
+}
+.service-title .clearfix li a {
+	color: white;
+	font: 12px/26px tahoma;
+	font-weight: bold;
+}
+.service-rights {
+	margin-left: 26px;
+	margin-top: 40px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #eaeaea;
+}
+.service-rights a {
+  text-decoration: none;
+  color: black;
+  font: 12px tahoma;
+}
+.service-rights .rights-list {
+  position: relative;
+}
+.service-rights .rights-list>li {
+  float: left;
+  width: 40px;
+  height: 22px;
+  margin-right: 20px;
+  text-align: center;
+}
+.service-rights .rights-list>li>ul {
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  width:300px;
+  text-align: left;
+}
+.service-rights .rights-list>li  a {
+	font: 12px/26px tahoma;
+	text-indent: 2px;
+}
+.service-rights .rights-list>li:hover {
+  border-bottom: 2px solid #ff4400;
+
+}
+.service-rights  .rights-list>li>a:hover {
+  font-weight: bold;
+}
+.service-rights a:hover  {
+    color: #ff4400;
+}
+.service-rights .rights-list>li:hover ul {
+  display: block;
+}
+.service-rights a.stress {
+  color: #ff4400;
+}
+.service-rights .rights-regular ul {
+	float: left;
+	margin-right: 16px;
+}
+.service-rights .rights-forum ul {
+	float: left;
+	margin-right: 20px;
+}
+.service-rights .rights-public ul {
+	float: left;
+	margin-right: 20px;
+}
+/* .life-services */
+.life-services {
+	margin-left: 26px;
+}
+.life-services .life-communication {
+
+	padding-bottom: 12px;
+}
+.life-services .life-communication li {
+	position: relative;
+	float: left;
+	width: 72px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	border: 1px solid #eaeaea;
+}
+.life-services .life-communication li a {
+	display: block;
+	padding-top: 28px;
+	color: black;
+	font: 12px/18px tahoma;
+}
+.life-services .life-communication li:hover {
+	border: 1px solid #ff4300;
+	border-bottom: none;
+}
+.life-services .life-communication>li>a:hover {
+	color: #ff4300;
+	
+}
+.life-services .communication1 a {
+	background: url(https://img.alicdn.com/tfs/TB1rFMcOFXXXXagapXXXXXXXXXX-220-1136.png) no-repeat 22px 1px;
+}
+.life-services .communication2 a {
+	background: url(https://img.alicdn.com/tfs/TB1rFMcOFXXXXagapXXXXXXXXXX-220-1136.png) no-repeat 22px -43px;
+}
+.life-services .communication3 a {
+	background: url(https://img.alicdn.com/tfs/TB1rFMcOFXXXXagapXXXXXXXXXX-220-1136.png) no-repeat 22px -86px;
+}
+.life-services .communication4 a {
+	background: url(https://img.alicdn.com/tfs/TB1rFMcOFXXXXagapXXXXXXXXXX-220-1136.png) no-repeat 22px -129px;
+}
+.life-services .communication1>ul li {
+	float: left;
+}
+.communication-list {
+	position: absolute;
+	top: 70px;
+	left: 0;
+	width: 508px;
+	
+}
+.communication-list input {
+	position: absolute;
+	top: 40px;
+	left: 0;
+	display: block;
+	width: 190px;
+	height: 24px;
+}
+.communication-list select {
+	position: absolute;
+	top: 76px;
+	left: 0;
+	display: block;
+	width: 194px;
+	height: 28px;
+}
+.communication-list select option {
+	display: block;
+	border: 1px solid #ff4400;
+	color: #fc461e;
+	width: 20px;
+	height: 10px;
+}
+.money-list ul {
+	float: left;
 }
